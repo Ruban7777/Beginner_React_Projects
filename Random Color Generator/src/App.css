@@ -1,0 +1,10 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  gap: 20px;
+}
