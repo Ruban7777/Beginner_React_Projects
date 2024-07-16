@@ -9,9 +9,9 @@ Welcome to my collection of beginner React projects. This repository showcases s
 A simple application of accordion with dummy data 
 
 - **Features**:
-  - Generate a HEX color.
-  - Generate an RGB color.
-  - Generate a random color (either HEX or RGB).
+  - Single selection
+  - Multi selection
+    
 ### 2. Random Color Generator
 
 A simple application to generate random HEX and RGB colors.
