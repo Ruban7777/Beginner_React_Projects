@@ -1,0 +1,14 @@
+.active {
+  color: darkgoldenrod;
+}
+
+.inactive {
+  color: black;
+}
+
+.tex {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: 1px solid black;
+}
