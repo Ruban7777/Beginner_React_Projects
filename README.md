@@ -20,8 +20,8 @@ A simple application to generate random HEX and RGB colors.
   - Generate a HEX color.
   - Generate an RGB color.
   - Generate a random color (either HEX or RGB).
-  - 
-### 2. Star Rating
+    
+### 3. Star Rating
 
 A simple application to give rating by hovering on star.
 
