@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,36 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Beginner React Projects
-
-Welcome to my collection of beginner React projects. This repository showcases simple React applications to help me practice and improve my React development skills.
-
-## Projects
-
-### 1. Accordian
-
-A simple application of accordion with dummy data 
-
-- **Features**:
-  - Single selection
-  - Multi selection
-    
-### 2. Random Color Generator
-
-A simple application to generate random HEX and RGB colors.
-
-- **Features**:
-  - Generate a HEX color.
-  - Generate an RGB color.
-  - Generate a random color (either HEX or RGB).
-    
-### 3. Star Rating
-
-A simple application to give rating by hovering on star.
-
-- **Features**:
-  - star rating
-  - write a review
-  - submit
->>>>>>> 9827448723f1f67ad05faf0ad19314fef1fd7f6b
