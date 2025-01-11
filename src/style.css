@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+  background-color: #f4f4f4;
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Form Styles */
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+  
+}
+
+input {
+  height: 45px;
+  width: 60%;
+  max-width: 400px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 0 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #03d3f8;
+  background-color: #fff;
+  outline: none;
+}
+
+.addbtn {
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #03d3f8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid rgba(128, 128, 128, 0.959);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.addbtn:hover {
+  background-color: #028fbd;
+  transform: scale(1.05);
+}
+
+/* Tasks Container */
+.tasks {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+/* Task Sections */
+.todo,
+.ongoing,
+.completed {
+  flex: 1;
+  min-width: 280px;
+  max-width: 25%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.todo {
+  border: 4px solid #f76c6c;
+}
+
+.ongoing {
+  border: 4px solid #ffa500;
+}
+
+.completed {
+  border: 4px solid #4caf50;
+}
+
+/* Task Lists */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 2px solid gray;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  background-color: rgba(85, 84, 84, 0.123);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons for Task Actions */
+button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.todo button {
+  background-color: #f76c6c;
+  color: white;
+}
+
+.ongoing button {
+  background-color: #ffa500;
+  color: white;
+}
+
+.completed button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.todo button:hover {
+  background-color: #d35454;
+}
+
+.ongoing button:hover {
+  background-color: #cc8400;
+}
+
+.completed button:hover {
+  background-color: #388e3c;
+}
+
+
+
